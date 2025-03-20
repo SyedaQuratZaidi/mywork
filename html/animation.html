@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #mydiv{
+            height: 200px;
+            width: 200px;
+            background-color: aquamarine;
+            border: 3px solid black;
+            animation-name: myanim;
+            animation-duration: 3s;
+        }
+
+        @keyframes myanim{
+            0%{
+                background-color: aquamarine;
+                margin-top: 0;
+                margin-left: 0;
+            }
+            25%{
+                background-color: blueviolet;
+                margin-top: 0;
+                margin-left: 500px;
+            }
+            50%{
+                background-color: brown;
+                margin-top: 400px;
+                margin-left: 500px;
+            }
+            75%{
+                background-color: yellowgreen;
+                margin-top: 400px;
+                margin-left: 0;
+            }
+            100%{
+                background-color: aquamarine;
+                margin-top: 0;
+                margin-left: 0;
+            }
+            
+            
+        }
+
+    </style>
+</head>
+<body>
+    <div id="mydiv">
+
+    </div>
+</body>
+</html>
